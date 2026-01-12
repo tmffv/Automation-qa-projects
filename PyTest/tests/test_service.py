@@ -1,7 +1,7 @@
 import pytest
 import requests
 
-import source.service as service
+import app.service as service
 import unittest.mock as mock
 
 

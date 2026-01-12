@@ -1,5 +1,5 @@
 import pytest
-import source.shapes as shapes
+import app.shapes as shapes
 
 
 @pytest.mark.parametrize("side_length, expected_area", [(5, 25), (4, 16), (9, 81)])
